@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Welcome message
+echo "Welcome to the UNITED BANK OF AFRICA."
+
+# Ask for the user's name
+echo "What is your name?"
+read name
+
+# Greet the user
+echo "Hello, $name!"
+
+# Ask for the withdrawal amount
+echo "How much would you like to withdraw?"
+read amount
+
+# Here you might want to add some checks to make sure the user has enough balance, etc.
+
+# Success message
+echo "Success! You have withdrawn $amount. Thank you for banking with us!"
+
